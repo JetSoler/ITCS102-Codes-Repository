@@ -16,7 +16,7 @@ print("Balance =", bal)
 
 # This is for the 1000
 print("1000 =", Money//a)
-
+bal %= a
 # This is for the 500
 print("500 =", bal//b)
 bal %= b
