@@ -1,5 +1,5 @@
 # Variables:
-Money = 2312
+Money = int(input("input money --->>  "))
 a = 1000
 b = 500
 c = 200
@@ -41,8 +41,8 @@ Gis = Money%f
 print("10 =", Gis//g)
 
 # This is for the 5
-Lima = Money%g
-print("5 =", Lima//h)
+Payb = Money%g
+print("5 =", Payb//h)
 
 # This is for the 1
 isa = Money%h
