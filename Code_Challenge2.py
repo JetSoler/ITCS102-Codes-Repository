@@ -9,41 +9,42 @@ f = 20
 g = 10
 h = 5
 i = 1
+bal = Money
 
 # This if for the account balance
-print("Balance =", Money)
+print("Balance =", bal)
 
 # This is for the 1000
 print("1000 =", Money//a)
 
 # This is for the 500
-FiveH = Money%a
-print("500 =", FiveH//b)
+print("500 =", bal//b)
+bal %= b
 
 # This is for the 200
-TwoH = Money%b
-print("200 =", TwoH//c)
+print("200 =", bal//c)
+bal %= c
 
 # This is for the 100
-OneH = Money%c
-print("100 =", OneH//d)
+print("100 =", bal//d)
+bal %= d
 
 # This is for the 50
-Pipty = Money%d
-print("50 =", Pipty//e)
+print("50 =", bal//e)
+bal %= e
 
 # This is for the 20
-Binti = Money%e
-print("20 =", Binti//f)
+print("20 =", bal//f)
+bal %= f
 
 # This is for the 10
-Gis = Money%f
-print("10 =", Gis//g)
+print("10 =", bal//g)
+bal %= g
 
 # This is for the 5
-Payb = Money%g
-print("5 =", Payb//h)
+print("5 =", bal//h)
+bal %= h
 
 # This is for the 1
-isa = Money%h
-print("1 =", isa//i)
+print("1 =", bal//i)
+bal %= i
