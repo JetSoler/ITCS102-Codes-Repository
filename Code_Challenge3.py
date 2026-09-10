@@ -8,9 +8,9 @@ weight = float(input("How heavy is it?  "  ))
 print("-----------------------------------------------------")
 distance = float(input("How far do it need to travel?  "  ))
 print("-----------------------------------------------------")
-express = bool(input("Is it rushed?  True or False?  "  ))
+express = eval(input("Is it rushed?  True or False?  "  ))
 print("-----------------------------------------------------")
-international = bool(input("is it international? True or False?  "  ))
+international = eval(input("is it international? True or False?  "  ))
 print("-----------------------------------------------------")
 
 
@@ -42,5 +42,3 @@ else:
 	output = base_cost
 
 print("Your total amount is", output)
-
-# There's a problem, when you type false on the it becomes true. but when you enter it becomes false
