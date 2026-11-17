@@ -1,0 +1,16 @@
+fruit_basket = ["Longgan", "Atis", "Duhat", "Atis", "Kaimito", "Sampalok"]
+print(fruit_basket)
+
+fruit_basket.append("Katmon")
+fruit_basket.append("Chico")
+fruit_basket.append("Mabolo")
+fruit_basket.append("Watermelon")
+fruit_basket.append("saging")
+fruit_basket.append("santol")
+print(fruit_basket)
+fruit_basket.insert(1, "pili")
+print(fruit_basket)
+fruit_basket.pop()
+print(fruit_basket)
+print(fruit_basket[5])
+print(fruit_basket[5:8])
