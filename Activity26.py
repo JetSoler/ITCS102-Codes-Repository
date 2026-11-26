@@ -1,4 +1,4 @@
-# f = formated string
+# f = formated string 
 
 from Activity25 import taga_triangle
 from Activity25 import sum
